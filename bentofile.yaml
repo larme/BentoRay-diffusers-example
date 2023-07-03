@@ -10,6 +10,7 @@ python:
     - diffusers
     - triton
     - xformers
+    - pydantic
 docker:
     distro: debian
     cuda_version: "11.7.0"

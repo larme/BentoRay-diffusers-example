@@ -4,4 +4,5 @@ accelerate
 transformers
 xformers
 triton; sys_platform == "linux"
-pydantic>=2.0
+pydantic
+ray[serve]
