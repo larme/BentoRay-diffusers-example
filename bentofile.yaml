@@ -14,5 +14,3 @@ python:
 docker:
     distro: debian
     cuda_version: "11.6"
-    env:
-      BENTOML_CONFIG: "src/configuration.yaml"
